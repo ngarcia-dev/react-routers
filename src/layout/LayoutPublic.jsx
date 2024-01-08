@@ -9,8 +9,8 @@ const LayoutPublic = () => {
       <Navbar />
       <main className="container">
         {navigation.state === "loading" && (
-          <div class="spinner-border text-danger" role="status">
-            <span class="visually-hidden">Loading...</span>
+          <div className="spinner-border text-danger" role="status">
+            <span className="visually-hidden">Loading...</span>
           </div>
         )}
         <Outlet />
